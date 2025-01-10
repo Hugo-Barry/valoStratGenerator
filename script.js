@@ -1,4 +1,4 @@
-const hugoAgents = ['Jett', 'Sage', 'Reyna'];
+const hugoAgents = ['Breach', 'Brimstone', 'Clove', 'Deadlock', 'Jett', 'Phoenix', 'Sage', 'Skye', 'Sova'];
 const zakAgents = ['Brimstone', 'Viper', 'Omen', 'Killjoy', 'Cypher', 'Sova', 'Sage', 'Phoenix', 'Jett', 'Reyna', 'Raze', 'Breach', 'Skye', 'Yoru', 'Astra', 'KAY/O', 'Chamber', 'Neon', 'Fade', 'Harbor', 'Gekko', 'Deadlock', 'Iso', 'Clove', 'Vyse', 'Tejo'];
 const johnAgents = ['Brimstone', 'Jett', 'Sage', 'Sova', 'Gekko', 'Fade', 'Yoru', 'KAY/O', 'Astra', 'Chamber', 'Vyse', 'Phoenix', 'Clove', 'Cypher'];
 const salAgents = ['Brimstone', 'Viper', 'Omen', 'Killjoy', 'Cypher', 'Sova', 'Sage', 'Phoenix', 'Jett', 'Reyna', 'Raze', 'Breach', 'Skye', 'Yoru', 'Astra', 'KAY/O', 'Chamber', 'Neon', 'Fade', 'Harbor', 'Gekko', 'Deadlock', 'Iso', 'Clove', 'Vyse'];
