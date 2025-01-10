@@ -25,39 +25,36 @@ function generateLoadout() {
         return;
     }
 
-    let remainingMoney = availableMoney;
+    let remainingMoney = Number(availableMoney);
     let loadout = {};
     
     function shieldBlock() {
-        // Randomly select shields within budget
         const shieldIndex = getRandomIndex(shieldPrice, remainingMoney);
         if (shieldIndex !== -1) {
             loadout['Shield'] = shieldNames[shieldIndex];
-            remainingMoney -= shieldPrice[shieldIndex];
+            remainingMoney -= Number(shieldPrice[shieldIndex]);
         } else {
             loadout['Shield'] = "No Shields";
         }
     }
 
     function priBlock() {
-        // Randomly select primary weapon within budget
         const primaryIndex = getRandomIndex(priWeaponPrice, remainingMoney);
         if (primaryIndex !== -1) {
             loadout['Primary Weapon'] = priWeaponNames[primaryIndex];
-            remainingMoney -= priWeaponPrice[primaryIndex];
+            remainingMoney -= Number(priWeaponPrice[primaryIndex]);
         } else {
             loadout['Primary Weapon'] = "No Primary Weapon";
         }
     }
 
-
     function secBlock() {
-        // Randomly select secondary weapon within budget
         const secondaryIndex = getRandomIndex(secWeaponPrice, remainingMoney);
         if (secondaryIndex !== -1) {
             loadout['Secondary Weapon'] = secWeaponNames[secondaryIndex];
+            remainingMoney -= Number(secWeaponPrice[secondaryIndex]);
         } else {
-            loadout['Secondary Weapon'] = "Classic"; // Default to Classic which is free
+            loadout['Secondary Weapon'] = "Classic";
         }
     }
 
@@ -68,8 +65,8 @@ function generateLoadout() {
     shuffledCodeBlocks.forEach(block => block());
 
     displayLoadout(loadout);
-
 }
+
 
 function getRandomIndex(prices, maxPrice) {
     const affordableItems = prices
