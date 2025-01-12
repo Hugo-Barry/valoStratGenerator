@@ -99,3 +99,7 @@ function shuffle(array) {
     return array;
 }
 
+const audio = new Audio("metal-pipe-clang.mp3");
+johnButton.addEventListener("click", () => {
+    audio.play();
+  });

@@ -14,6 +14,24 @@ div {
     background-color: #3b4049;
 }
 
+#john {
+    background-image: url('https://colinbendell.cloudinary.com/image/upload/c_crop,f_auto,g_auto,h_350,w_400/v1512090971/Wizard-Clap-by-Markus-Magnusson.gif')
+
+}
+
+#johnLabel {
+    color: #282c34;
+}
+
+#hugo {
+    background-image: url('slugcatBg.png')
+
+}
+
+#hugoLabel {
+    color: #ffffff;
+}
+
 button {
     padding: 10px;
     margin: 10px;
