@@ -1,7 +1,8 @@
-const hugoAgents = ['Breach', 'Brimstone', 'Clove', 'Deadlock', 'Jett', 'Phoenix', 'Sage', 'Skye', 'Sova'];
-const zakAgents = ['Brimstone', 'Viper', 'Omen', 'Killjoy', 'Cypher', 'Sova', 'Sage', 'Phoenix', 'Jett', 'Reyna', 'Raze', 'Breach', 'Skye', 'Yoru', 'Astra', 'KAY/O', 'Chamber', 'Neon', 'Fade', 'Harbor', 'Gekko', 'Deadlock', 'Iso', 'Clove', 'Vyse', 'Tejo'];
+const hugoAgents = ['Breach', 'Brimstone', 'Clove', 'Deadlock', 'Jett', 'Phoenix', 'Sage', 'Skye', 'Sova', 'Waylay', 'Fade'];
+const zakAgents = ['Waylay', 'Brimstone', 'Viper', 'Omen', 'Killjoy', 'Cypher', 'Sova', 'Sage', 'Phoenix', 'Jett', 'Reyna', 'Raze', 'Breach', 'Skye', 'Yoru', 'Astra', 'KAY/O', 'Chamber', 'Neon', 'Fade', 'Harbor', 'Gekko', 'Deadlock', 'Iso', 'Clove', 'Vyse', 'Tejo'];
 const johnAgents = ['Brimstone', 'Jett', 'Sage', 'Sova', 'Gekko', 'Fade', 'Yoru', 'KAY/O', 'Astra', 'Chamber', 'Vyse', 'Phoenix', 'Clove', 'Cypher'];
 const salAgents = ['Brimstone', 'Viper', 'Omen', 'Killjoy', 'Cypher', 'Sova', 'Sage', 'Phoenix', 'Jett', 'Reyna', 'Raze', 'Breach', 'Skye', 'Yoru', 'Astra', 'KAY/O', 'Chamber', 'Neon', 'Fade', 'Harbor', 'Gekko', 'Deadlock', 'Iso', 'Clove', 'Vyse'];
+const joeAgents = ['Waylay', 'Brimstone', 'Viper', 'Omen', 'Killjoy', 'Cypher', 'Sova', 'Sage', 'Phoenix', 'Jett', 'Reyna', 'Raze', 'Breach', 'Skye', 'Yoru', 'Astra', 'KAY/O', 'Chamber', 'Neon', 'Fade', 'Harbor', 'Gekko', 'Deadlock', 'Iso', 'Clove', 'Vyse', 'Tejo'];
 const priWeaponNames = ['Stinger', 'Spectre', 'Bucky', 'Judge', 'Bulldog', 'Guardian', 'Phantom', 'Vandal', 'Marshal', 'Outlaw', 'Operator', 'Ares', 'Odin']
 const priWeaponPrice = ['1100', '1600', '850', '1850', '2050', '2250', '2900', '2900', '950', '2400', '4700', '1600', '3200']
 const secWeaponNames = ['Classic', 'Shorty', 'Frenzy', 'Ghost', 'Sheriff']
